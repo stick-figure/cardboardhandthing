@@ -9,7 +9,7 @@ void setup() {
   indexServo.attach(7);
 }
 
-// Runs thousands of times a second.
+// Runs hundreds of times a second.
 void loop() {
   // Measures the voltage power coming into A1. It is represented by a number between 0-1023, from 0 volts to 5 volts. 
   int indexFingerReading = analogRead(A1);
