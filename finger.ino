@@ -1,4 +1,4 @@
-#<include Servo.h>
+#include <Servo.h>
 
 // define what indexServo is, a Servo object to tell the real servo what to do 
 Servo indexServo;
